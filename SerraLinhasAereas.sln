@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SerraLinhasAereas.Domain", "SerraLinhasAereas.Domain", "{F4CD2345-1180-4931-B614-BDC3B6634D2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SerraLinhasAereas.Infra.Data", "SerraLinhasAereas.Infra.Data", "{E16A778E-A9FF-4EFE-8906-9B27CA96CF70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SerraLinhasAereas.WeApi", "SerraLinhasAereas.WeApi", "{97F67E9D-67DD-426A-8366-17846206FFF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerraLinhasAereasSolution.Domain", "SerraLinhasAereas.Domain\SerraLinhasAereasSolution.Domain.csproj", "{C82F5475-08EF-4DD1-B1EB-F6FDBB3C82DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerraLinhasAereasSolution.Infra.Data", "SerraLinhasAereas.Infra.Data\SerraLinhasAereasSolution.Infra.Data.csproj", "{E5282C80-BC0E-4C9B-8713-C016E2E74397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerraLinhasAereasSolution", "SerraLinhasAereas\SerraLinhasAereasSolution.csproj", "{082ABB91-2D4D-4F4E-836A-0B6A9820AC23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82F5475-08EF-4DD1-B1EB-F6FDBB3C82DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82F5475-08EF-4DD1-B1EB-F6FDBB3C82DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82F5475-08EF-4DD1-B1EB-F6FDBB3C82DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82F5475-08EF-4DD1-B1EB-F6FDBB3C82DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5282C80-BC0E-4C9B-8713-C016E2E74397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5282C80-BC0E-4C9B-8713-C016E2E74397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5282C80-BC0E-4C9B-8713-C016E2E74397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5282C80-BC0E-4C9B-8713-C016E2E74397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082ABB91-2D4D-4F4E-836A-0B6A9820AC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082ABB91-2D4D-4F4E-836A-0B6A9820AC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082ABB91-2D4D-4F4E-836A-0B6A9820AC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082ABB91-2D4D-4F4E-836A-0B6A9820AC23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C82F5475-08EF-4DD1-B1EB-F6FDBB3C82DA} = {F4CD2345-1180-4931-B614-BDC3B6634D2E}
+		{E5282C80-BC0E-4C9B-8713-C016E2E74397} = {E16A778E-A9FF-4EFE-8906-9B27CA96CF70}
+		{082ABB91-2D4D-4F4E-836A-0B6A9820AC23} = {97F67E9D-67DD-426A-8366-17846206FFF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D36CB1A8-59E9-4E27-A5D0-0227DC7914E2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SerraLinhasAereasSolution.Domain": {
+      "commandName": "Project"
+    },
+    "Perfil 1": {
+      "commandName": "Executable"
+    }
+  }
+}
